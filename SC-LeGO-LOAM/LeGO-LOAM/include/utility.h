@@ -68,7 +68,7 @@ extern const int N_SCAN = 16;
 extern const int Horizon_SCAN = 1800;
 extern const float ang_res_x = 0.2;
 extern const float ang_res_y = 2.0;
-extern const float ang_bottom = 15.0+0.1+3.0;
+extern const float ang_bottom = 15.0;
 extern const int groundScanInd = 7;
 
 // HDL-32E
@@ -106,14 +106,14 @@ extern const int groundScanInd = 7;
 // extern const int groundScanInd = 15;
 
 extern const bool loopClosureEnableFlag = true;
-extern const double mappingProcessInterval = 0.3;
+extern const double mappingProcessInterval = 0.1;
 
 extern const float scanPeriod = 0.1;
 extern const int systemDelay = 0;
 extern const int imuQueLength = 200;
 
-extern const float sensorMinimumRange = 1.0;
-extern const float sensorMountAngle = 0.0;
+extern const float sensorMinimumRange = 0.5;
+extern const float sensorMountAngle = -3.0;
 extern const float segmentTheta = 60.0/180.0*M_PI; // decrese this value may improve accuracy
 extern const int segmentValidPointNum = 5;
 extern const int segmentValidLineNum = 3;
